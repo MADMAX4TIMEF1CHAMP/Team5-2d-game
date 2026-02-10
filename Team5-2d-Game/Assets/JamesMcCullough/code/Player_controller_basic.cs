@@ -11,6 +11,8 @@ public class Player_controller_basic : MonoBehaviour
     private Vector2 movement;
     private float horizontal;
     private float vertical;
+    private bool current_state;
+    private Animator test_anim;
 
     #endregion
 
@@ -19,16 +21,11 @@ public class Player_controller_basic : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-    }
-    void Update()
-    {
-        //vertical = Input.GetAxisRaw("Vertical");
-        //horizontal = Input.GetAxisRaw("Horizontal");
+        test_anim = GetComponent<Animator>();
     }
     void FixedUpdate()
     {
-        //movement = new Vector2(horizontal,vertical).normalized;
-        //rb.linearVelocity = new Vector2(movement.x*acceleration,movement.y*acceleration);
+
 
         
         if (Input.GetKey(KeyCode.D))
@@ -39,7 +36,7 @@ public class Player_controller_basic : MonoBehaviour
         {
             rb.linearVelocityX -= acceleration;
         }
-
+        
         if (Input.GetKey(KeyCode.W))
         {
             rb.linearVelocityY += acceleration;
@@ -49,8 +46,20 @@ public class Player_controller_basic : MonoBehaviour
             rb.linearVelocityY -= acceleration;
         }
 
+
         rb.linearVelocityX *= decceleration;
         rb.linearVelocityY *= decceleration;
+
+        current_state = state_switch_player.instance.state;
+
+        if (current_state == true)
+        {
+            test_anim.SetBool("state",true);
+        }
+        if (current_state == false)
+        {
+            test_anim.SetBool("state",false);
+        }
 
 
         
