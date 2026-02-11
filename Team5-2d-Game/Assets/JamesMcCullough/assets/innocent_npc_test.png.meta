@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      innocent_npc_test_0: 6540004349339280650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
