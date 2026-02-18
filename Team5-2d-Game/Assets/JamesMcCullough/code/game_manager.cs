@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class state_switch_player : MonoBehaviour
+public class game_manager : MonoBehaviour
 {
    #region "Variables"
    public bool state = true;
    //true = red false = blue
-   public static state_switch_player instance;
+   public static game_manager instance;
 
 
    #endregion

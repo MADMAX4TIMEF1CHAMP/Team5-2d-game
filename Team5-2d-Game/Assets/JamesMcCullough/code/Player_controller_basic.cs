@@ -50,7 +50,7 @@ public class Player_controller_basic : MonoBehaviour
         rb.linearVelocityX *= decceleration;
         rb.linearVelocityY *= decceleration;
 
-        current_state = state_switch_player.instance.state;
+        current_state = game_manager.instance.state;
 
         if (current_state == true)
         {

@@ -14,7 +14,7 @@ public class state_switch_blue : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        current_state = state_switch_player.instance.state;
+        current_state = game_manager.instance.state;
         room_collider.isTrigger = !current_state;
     }
 
