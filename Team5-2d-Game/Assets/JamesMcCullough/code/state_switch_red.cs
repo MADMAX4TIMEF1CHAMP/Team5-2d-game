@@ -26,12 +26,12 @@ public class state_switch_red : MonoBehaviour
         current_state = game_manager.instance.state;
         if(is_red == current_state)
         {
-            room_collider.isTrigger = true;
+            room_collider.isTrigger = false;
             sprite_renderer.sprite = shown_sprite;
         }
         else 
         {
-            room_collider.isTrigger = false;
+            room_collider.isTrigger = true;
             sprite_renderer.sprite = alt_sprite;
         }
         
