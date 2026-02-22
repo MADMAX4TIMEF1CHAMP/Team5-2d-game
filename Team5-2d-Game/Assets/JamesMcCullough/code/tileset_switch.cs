@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class tileset_switch : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+        #region variables
+    private bool current_state;
+    [SerializeField] private bool is_red;
+    #endregion
     void Start()
     {
         
+        tilemap_renderer = GetComponent<SpriteRenderer>();
     }
+   
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        current_state = game_manager.instance.state;
+        if(is_red == current_state)
+        {
+            room_collider.isTrigger = false;
+            
+        }
+        else 
+        {
+            room_collider.isTrigger = true;
+            
+        }
         
     }
 }
