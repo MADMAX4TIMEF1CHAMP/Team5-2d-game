@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class tileset_switch : MonoBehaviour
 {
-        #region variables
+        /*#region variables
     private bool current_state;
     [SerializeField] private bool is_red;
     #endregion
@@ -29,4 +29,5 @@ public class tileset_switch : MonoBehaviour
         }
         
     }
+    */
 }
