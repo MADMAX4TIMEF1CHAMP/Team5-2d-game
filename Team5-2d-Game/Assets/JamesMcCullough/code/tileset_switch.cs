@@ -2,14 +2,16 @@ using UnityEngine;
 
 public class tileset_switch : MonoBehaviour
 {
-        /*#region variables
+        #region variables
     private bool current_state;
     [SerializeField] private bool is_red;
+    private GameObject current_object;
+    private 
     #endregion
     void Start()
     {
+        current_object = this.gameObject;
         
-        tilemap_renderer = GetComponent<SpriteRenderer>();
     }
    
 
@@ -19,15 +21,13 @@ public class tileset_switch : MonoBehaviour
         current_state = game_manager.instance.state;
         if(is_red == current_state)
         {
-            room_collider.isTrigger = false;
-            
+           current_object.GetComponent<Renderer>().enabled = true;
         }
         else 
         {
-            room_collider.isTrigger = true;
-            
+            current_object.GetComponent<Renderer>().enabled = false;
         }
         
     }
-    */
+    
 }

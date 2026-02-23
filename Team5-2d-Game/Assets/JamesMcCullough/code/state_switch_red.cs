@@ -7,16 +7,19 @@ public class state_switch_red : MonoBehaviour
     [SerializeField] private bool is_red;
     [SerializeField] private Sprite shown_sprite;
     [SerializeField] private Sprite alt_sprite;
+    private bool player_inside = false;
 
 
 
     private BoxCollider2D room_collider;
     private SpriteRenderer sprite_renderer;
+    private ParticleSystem particle_system;
     #endregion
     void Start()
     {
         room_collider = GetComponent<BoxCollider2D>();
         sprite_renderer = GetComponent<SpriteRenderer>();
+        particle_system = GetComponent<ParticleSystem>();
     }
    
 
@@ -35,6 +38,31 @@ public class state_switch_red : MonoBehaviour
             sprite_renderer.sprite = alt_sprite;
         }
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            game_manager.instance.blocked = true;
+            player_inside = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            game_manager.instance.blocked = false;
+            player_inside = false;
+        }
+    }
+
+    void Update()
+    {
+        if (player_inside == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            particle_system.Play();
+        }
     }
     
 }
