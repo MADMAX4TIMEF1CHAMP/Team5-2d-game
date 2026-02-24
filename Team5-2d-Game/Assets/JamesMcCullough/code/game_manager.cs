@@ -7,6 +7,7 @@ public class game_manager : MonoBehaviour
    public bool blocked = false;
    //true = red false = blue
    public static game_manager instance;
+   public float paranoia_level;
 
 
    #endregion
@@ -32,6 +33,8 @@ public class game_manager : MonoBehaviour
         
         
     }
+
+
     
 
     
