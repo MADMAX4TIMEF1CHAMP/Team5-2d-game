@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8130230b87893674c947ac309bd1af59
+guid: e37f0101b190af640bd925107b6bac36
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: concept of npcs Rats
+  - name: shadow enemies part 2
     originalName: 
-    pivot: {x: 0.6060606, y: -0.19565217}
+    pivot: {x: 0.57272726, y: -0.072072074}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 66
-      height: 92
-    spriteID: f68a39b3205a10d4da2d9a9074449146
+      width: 110
+      height: 111
+    spriteID: c46d079134ca08d4682894d5cdc41f46
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1418720051
+      value0: 3884461975
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: concept of npcs Rats
+    name: shadow enemies part 2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: concept of npcs Rats
+    - name: shadow enemies part 2
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 24
-        y: 18
-        width: 66
-        height: 92
-      spriteId: f68a39b3205a10d4da2d9a9074449146
+        x: 1
+        y: 8
+        width: 110
+        height: 111
+      spriteId: c46d079134ca08d4682894d5cdc41f46
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
