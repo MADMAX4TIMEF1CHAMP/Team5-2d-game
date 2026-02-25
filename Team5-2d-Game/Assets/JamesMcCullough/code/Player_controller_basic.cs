@@ -11,10 +11,6 @@ public class Player_controller_basic : MonoBehaviour
     [SerializeField] private float decceleration = .7f;
     private Rigidbody2D rb;
     private ParticleSystem particle_system;
-
-    private Vector2 movement;
-    private float horizontal;
-    private float vertical;
     private bool current_state;
     private Animator test_anim;
     private bool blocked;
