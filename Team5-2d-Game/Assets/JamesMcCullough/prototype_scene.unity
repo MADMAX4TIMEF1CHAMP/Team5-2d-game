@@ -1040,6 +1040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 1
   blocked: 0
+  paranoia_level: 0
 --- !u!1 &189737966
 GameObject:
   m_ObjectHideFlags: 0
@@ -42947,6 +42948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 1
   decceleration: 0.9
+  paranoia_delay: 5
 --- !u!212 &1568068906
 SpriteRenderer:
   m_ObjectHideFlags: 0
