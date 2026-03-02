@@ -6,15 +6,16 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public Sprite Frame_0, Frame_1, Frame_2, Frame_3, Frame_4, Frame_5, Frame_6, Frame_7, Frame_8, Frame_9;
-    Image healthBarImage;
+    Image HealthBarImage;
 
     private void Awake()
         {
         HealthBarImage = GetComponent<Image>();
     }
 
-    public void SetHealthBarImage(HealthBarStatus)
-    {         switch (HealthBarStatus)
+    public void SetHealthBarImage(HealthBarStatus, HealthBarStatus healthBarStatus)
+    {
+        switch (healthBarStatus)
         {
             case HealthBarStatus.Frame_0:
                 HealthBarImage.sprite = Frame_0;
@@ -46,6 +47,8 @@ public class HealthBar : MonoBehaviour
             case HealthBarStatus.Frame_9:
                 HealthBarImage.sprite = Frame_9;
                 break;
+            default:
+                break;
         }
     }
 }
@@ -58,8 +61,8 @@ public enum HealthBarStatus
     Frame_3 = 6,
     Frame_4 = 5,
     Frame_5 = 4,
-    Frame_6,= 3,
-    Frame_7,= 2,
+    Frame_6 = 3,
+    Frame_7 = 2,
     Frame_8 = 1,
     Frame_9 = 0,
 }
