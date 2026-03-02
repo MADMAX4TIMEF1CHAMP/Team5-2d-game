@@ -1,0 +1,3117 @@
+fileFormatVersion: 2
+guid: b27ee10a8ca11b94b84c2e543f6d9af7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5012261294352451305
+    second: Ward-Tileset_0
+  - first:
+      213: -451147064204586302
+    second: Ward-Tileset_1
+  - first:
+      213: 7182982825166658106
+    second: Ward-Tileset_2
+  - first:
+      213: -8109491711467711810
+    second: Ward-Tileset_3
+  - first:
+      213: -8344701492564621805
+    second: Ward-Tileset_4
+  - first:
+      213: -7755719102100826800
+    second: Ward-Tileset_5
+  - first:
+      213: 91448222261348435
+    second: Ward-Tileset_6
+  - first:
+      213: 9199283193632830582
+    second: Ward-Tileset_7
+  - first:
+      213: -6198155060953628217
+    second: Ward-Tileset_8
+  - first:
+      213: -3574099149534733858
+    second: Ward-Tileset_9
+  - first:
+      213: 2785796426488370763
+    second: Ward-Tileset_10
+  - first:
+      213: 9082534392742505594
+    second: Ward-Tileset_11
+  - first:
+      213: 1521142215642383502
+    second: Ward-Tileset_12
+  - first:
+      213: -6468946534542195583
+    second: Ward-Tileset_13
+  - first:
+      213: -3580333756595014730
+    second: Ward-Tileset_14
+  - first:
+      213: -2938623083258627454
+    second: Ward-Tileset_15
+  - first:
+      213: 4427963747804638623
+    second: Ward-Tileset_16
+  - first:
+      213: -6759208992146557246
+    second: Ward-Tileset_17
+  - first:
+      213: -6041774383984337036
+    second: Ward-Tileset_18
+  - first:
+      213: 6891561346001380141
+    second: Ward-Tileset_19
+  - first:
+      213: 5941013415505061805
+    second: Ward-Tileset_20
+  - first:
+      213: -4305062022175740680
+    second: Ward-Tileset_21
+  - first:
+      213: 7959159607349013080
+    second: Ward-Tileset_22
+  - first:
+      213: -454162769320322851
+    second: Ward-Tileset_23
+  - first:
+      213: 5082750404894028547
+    second: Ward-Tileset_24
+  - first:
+      213: -93308776647609728
+    second: Ward-Tileset_25
+  - first:
+      213: -1616258214747088570
+    second: Ward-Tileset_26
+  - first:
+      213: 2899217205092340263
+    second: Ward-Tileset_27
+  - first:
+      213: 8465602689723451276
+    second: Ward-Tileset_28
+  - first:
+      213: 625683779975516655
+    second: Ward-Tileset_29
+  - first:
+      213: -8273668077872746429
+    second: Ward-Tileset_30
+  - first:
+      213: -7903601201629868440
+    second: Ward-Tileset_31
+  - first:
+      213: -8758709536695490175
+    second: Ward-Tileset_32
+  - first:
+      213: -8462232080091941300
+    second: Ward-Tileset_33
+  - first:
+      213: -6442683789999605265
+    second: Ward-Tileset_34
+  - first:
+      213: 6551236746692497328
+    second: Ward-Tileset_35
+  - first:
+      213: 7713394229648639836
+    second: Ward-Tileset_36
+  - first:
+      213: -4221233565750884271
+    second: Ward-Tileset_37
+  - first:
+      213: 8231700409600467802
+    second: Ward-Tileset_38
+  - first:
+      213: 6029545085363939337
+    second: Ward-Tileset_39
+  - first:
+      213: -5839308453046351795
+    second: Ward-Tileset_40
+  - first:
+      213: -3050114716256133123
+    second: Ward-Tileset_41
+  - first:
+      213: 7763879220367621625
+    second: Ward-Tileset_42
+  - first:
+      213: 1197873429146689228
+    second: Ward-Tileset_43
+  - first:
+      213: 8113715410802123374
+    second: Ward-Tileset_44
+  - first:
+      213: 5916303613764272516
+    second: Ward-Tileset_45
+  - first:
+      213: 1761834197245508972
+    second: Ward-Tileset_46
+  - first:
+      213: 8961630451588283756
+    second: Ward-Tileset_47
+  - first:
+      213: 5241975295730849536
+    second: Ward-Tileset_48
+  - first:
+      213: 2452058746428251070
+    second: Ward-Tileset_49
+  - first:
+      213: 6918106464301494444
+    second: Ward-Tileset_50
+  - first:
+      213: -487566091808819117
+    second: Ward-Tileset_51
+  - first:
+      213: -5148335209363032316
+    second: Ward-Tileset_52
+  - first:
+      213: -5407929981956053719
+    second: Ward-Tileset_53
+  - first:
+      213: -1716109662289140514
+    second: Ward-Tileset_54
+  - first:
+      213: -6633279809414430397
+    second: Ward-Tileset_55
+  - first:
+      213: -9175681856352845599
+    second: Ward-Tileset_56
+  - first:
+      213: -9006906874743949244
+    second: Ward-Tileset_57
+  - first:
+      213: -1103534962346201219
+    second: Ward-Tileset_58
+  - first:
+      213: 4168930299906752418
+    second: Ward-Tileset_59
+  - first:
+      213: -4312625461182107293
+    second: Ward-Tileset_60
+  - first:
+      213: -3239530365628771793
+    second: Ward-Tileset_61
+  - first:
+      213: 2745812238299294481
+    second: Ward-Tileset_62
+  - first:
+      213: -5598458222820951111
+    second: Ward-Tileset_63
+  - first:
+      213: -7194486737310192589
+    second: Ward-Tileset_64
+  - first:
+      213: -8023279470915092180
+    second: Ward-Tileset_65
+  - first:
+      213: -358752023106252791
+    second: Ward-Tileset_66
+  - first:
+      213: 7457647696774024325
+    second: Ward-Tileset_67
+  - first:
+      213: 6825798162296168900
+    second: Ward-Tileset_68
+  - first:
+      213: 2872805365907691809
+    second: Ward-Tileset_69
+  - first:
+      213: 4103512611928038474
+    second: Ward-Tileset_70
+  - first:
+      213: 298633343615283515
+    second: Ward-Tileset_71
+  - first:
+      213: 3223828327311652306
+    second: Ward-Tileset_72
+  - first:
+      213: -8951254842374042116
+    second: Ward-Tileset_73
+  - first:
+      213: 2038292556400205173
+    second: Ward-Tileset_74
+  - first:
+      213: -6820548668822051365
+    second: Ward-Tileset_75
+  - first:
+      213: -8336704688744063241
+    second: Ward-Tileset_76
+  - first:
+      213: -7377159551018920212
+    second: Ward-Tileset_77
+  - first:
+      213: 1220809270027787165
+    second: Ward-Tileset_78
+  - first:
+      213: 2639709449551366970
+    second: Ward-Tileset_79
+  - first:
+      213: -6320590588386882384
+    second: Ward-Tileset_80
+  - first:
+      213: 2682112085389032211
+    second: Ward-Tileset_81
+  - first:
+      213: 5864791612934329794
+    second: Ward-Tileset_82
+  - first:
+      213: -4936339960954272144
+    second: Ward-Tileset_83
+  - first:
+      213: -2523178888952561086
+    second: Ward-Tileset_84
+  - first:
+      213: -51224039491680889
+    second: Ward-Tileset_85
+  - first:
+      213: 168141385163620486
+    second: Ward-Tileset_86
+  - first:
+      213: 1822128003838073517
+    second: Ward-Tileset_87
+  - first:
+      213: -9151823018884061056
+    second: Ward-Tileset_88
+  - first:
+      213: -1135036877882013330
+    second: Ward-Tileset_89
+  - first:
+      213: 4111955642618854114
+    second: Ward-Tileset_90
+  - first:
+      213: 5195014170514766273
+    second: Ward-Tileset_91
+  - first:
+      213: -8358933820896337429
+    second: Ward-Tileset_92
+  - first:
+      213: -577692782563032604
+    second: Ward-Tileset_93
+  - first:
+      213: 493135768008123548
+    second: Ward-Tileset_94
+  - first:
+      213: 6998216677881545079
+    second: Ward-Tileset_95
+  - first:
+      213: 2083637879558787618
+    second: Ward-Tileset_96
+  - first:
+      213: 4090040773917193346
+    second: Ward-Tileset_97
+  - first:
+      213: 4229565174715706868
+    second: Ward-Tileset_98
+  - first:
+      213: 365012596927876768
+    second: Ward-Tileset_99
+  - first:
+      213: 1256215142312869618
+    second: Ward-Tileset_100
+  - first:
+      213: -8929641947145998728
+    second: Ward-Tileset_101
+  - first:
+      213: 3001951287013165675
+    second: Ward-Tileset_102
+  - first:
+      213: 8965105761240474656
+    second: Ward-Tileset_103
+  - first:
+      213: 8030644276268893285
+    second: Ward-Tileset_104
+  - first:
+      213: 900085383659896501
+    second: Ward-Tileset_105
+  - first:
+      213: -4938992341984321670
+    second: Ward-Tileset_106
+  - first:
+      213: 4987498205975018917
+    second: Ward-Tileset_107
+  - first:
+      213: -8068797124651122473
+    second: Ward-Tileset_108
+  - first:
+      213: -1860994516033147624
+    second: Ward-Tileset_109
+  - first:
+      213: -1146413502382733584
+    second: Ward-Tileset_110
+  - first:
+      213: 6294977789449367753
+    second: Ward-Tileset_111
+  - first:
+      213: -5174548434618699529
+    second: Ward-Tileset_112
+  - first:
+      213: -1956432519897592717
+    second: Ward-Tileset_113
+  - first:
+      213: 1603138998985233968
+    second: Ward-Tileset_114
+  - first:
+      213: 2713316009909281905
+    second: Ward-Tileset_115
+  - first:
+      213: -4592866249696573208
+    second: Ward-Tileset_116
+  - first:
+      213: 3749339409784971515
+    second: Ward-Tileset_117
+  - first:
+      213: -278237887382549245
+    second: Ward-Tileset_118
+  - first:
+      213: -8722879864921948821
+    second: Ward-Tileset_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ward-Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6415357112f8540800000000000000
+      internalID: 5012261294352451305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c210a8a2243db9f0800000000000000
+      internalID: -451147064204586302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a5ac982d41fa360800000000000000
+      internalID: 7182982825166658106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb21efc114c457f80800000000000000
+      internalID: -8109491711467711810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3168303643aa13c80800000000000000
+      internalID: -8344701492564621805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055919571962e5490800000000000000
+      internalID: -7755719102100826800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3588a337ca3e44100800000000000000
+      internalID: 91448222261348435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b4b0235b6aaf70800000000000000
+      internalID: 9199283193632830582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1c111bfcabbf9a0800000000000000
+      internalID: -6198155060953628217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9d4f782cf366ec0800000000000000
+      internalID: -3574099149534733858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b465461171329a620800000000000000
+      internalID: 2785796426488370763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c6faba8e4ab0e70800000000000000
+      internalID: 9082534392742505594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84073829ce2c1510800000000000000
+      internalID: 1521142215642383502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1844e99966fa936a0800000000000000
+      internalID: -6468946534542195583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 435
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b370d4fa69105ec0800000000000000
+      internalID: -3580333756595014730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a3b9110e9e737d0800000000000000
+      internalID: -2938623083258627454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9de33a7199437d30800000000000000
+      internalID: 4427963747804638623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 371
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c67a74cb377232a0800000000000000
+      internalID: -6759208992146557246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f1f8d553e472ca0800000000000000
+      internalID: -6041774383984337036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23a938f78eb3af50800000000000000
+      internalID: 6891561346001380141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7620d7938b27250800000000000000
+      internalID: 5941013415505061805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fca03866e85144c0800000000000000
+      internalID: -4305062022175740680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aeca25e7d947e60800000000000000
+      internalID: 7959159607349013080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd854781e5d72b9f0800000000000000
+      internalID: -454162769320322851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 371
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3037ead409e898640800000000000000
+      internalID: 5082750404894028547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0823e79792084bef0800000000000000
+      internalID: -93308776647609728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64951bc87b5e199e0800000000000000
+      internalID: -1616258214747088570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722da34ffa61c3820800000000000000
+      internalID: 2899217205092340263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87ce8a2bccdb7570800000000000000
+      internalID: 8465602689723451276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe11a273510eea800800000000000000
+      internalID: 625683779975516655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340f7ec08b60e2d80800000000000000
+      internalID: -8273668077872746429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e408a0594c05290800000000000000
+      internalID: -7903601201629868440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 371
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189607ef410d27680800000000000000
+      internalID: -8758709536695490175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 339
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46743b02cc109a80800000000000000
+      internalID: -8462232080091941300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 339
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9f7e05a3df696a0800000000000000
+      internalID: -6442683789999605265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 339
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf87167c1baaea50800000000000000
+      internalID: 6551236746692497328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 339
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5741ce3f2b7b0b60800000000000000
+      internalID: 7713394229648639836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158867fdf6a2b65c0800000000000000
+      internalID: -4221233565750884271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a536cabb8efdc3270800000000000000
+      internalID: 8231700409600467802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e15a2f4f3da350800000000000000
+      internalID: 6029545085363939337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d488c3266eb96fea0800000000000000
+      internalID: -5839308453046351795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff9c5563d0dba5d0800000000000000
+      internalID: -3050114716256133123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd7c012407debb60800000000000000
+      internalID: 7763879220367621625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceda268983bf9010800000000000000
+      internalID: 1197873429146689228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6229758d25b99070800000000000000
+      internalID: 8113715410802123374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48187c17aceea1250800000000000000
+      internalID: 5916303613764272516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d34f72eda437810800000000000000
+      internalID: 1761834197245508972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d3e3b3a6b1e5c70800000000000000
+      internalID: 8961630451588283756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007196f12cc3fb840800000000000000
+      internalID: 5241975295730849536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbde353076770220800000000000000
+      internalID: 2452058746428251070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca03603fc2d020060800000000000000
+      internalID: 6918106464301494444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358b5350931db39f0800000000000000
+      internalID: -487566091808819117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b74577607d88b0800000000000000
+      internalID: -5148335209363032316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9252357755c23f4b0800000000000000
+      internalID: -5407929981956053719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 339
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4e3afba572f28e0800000000000000
+      internalID: -1716109662289140514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 275
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3410510782bd1f3a0800000000000000
+      internalID: -6633279809414430397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 275
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0871c67fd69a080800000000000000
+      internalID: -9175681856352845599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448fcd50be9010380800000000000000
+      internalID: -9006906874743949244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f612c6cc47fa0f0800000000000000
+      internalID: -1103534962346201219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2affd4315040bd930800000000000000
+      internalID: 4168930299906752418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3617fe80ef97624c0800000000000000
+      internalID: -4312625461182107293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 275
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f221b95db40ea03d0800000000000000
+      internalID: -3239530365628771793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 275
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11befbbcea51b1620800000000000000
+      internalID: 2745812238299294481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 275
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb74e288e74e42b0800000000000000
+      internalID: -5598458222820951111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 275
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ced513e6c082c90800000000000000
+      internalID: -7194486737310192589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c210c6294d597a090800000000000000
+      internalID: -8023279470915092180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9009c4c8fe4750bf0800000000000000
+      internalID: -358752023106252791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cc9326113ee7760800000000000000
+      internalID: 7457647696774024325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c16d24934b1abe50800000000000000
+      internalID: 6825798162296168900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_69
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 275
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12993cf62414ed720800000000000000
+      internalID: 2872805365907691809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_70
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 275
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c5e4daafa92f830800000000000000
+      internalID: 4103512611928038474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_71
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b64c9175f42400800000000000000
+      internalID: 298633343615283515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_72
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5b04a78c65dbc20800000000000000
+      internalID: 3223828327311652306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_73
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdcc4a8521c6c380800000000000000
+      internalID: -8951254842374042116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_74
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 275
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d9e8cd748794c10800000000000000
+      internalID: 2038292556400205173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 275
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5299d5f1b8851a0800000000000000
+      internalID: -6820548668822051365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe931e51431e4c80800000000000000
+      internalID: -8336704688744063241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6132669701f9990800000000000000
+      internalID: -7377159551018920212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b928e109f21f010800000000000000
+      internalID: 1220809270027787165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b40c232c122a420800000000000000
+      internalID: 2639709449551366970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcc5880950c848a0800000000000000
+      internalID: -6320590588386882384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b35613bb6c83520800000000000000
+      internalID: 2682112085389032211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c514a226ece36150800000000000000
+      internalID: 5864791612934329794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07641c895f89e7bb0800000000000000
+      internalID: -4936339960954272144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242c73b3b2edbfcd0800000000000000
+      internalID: -2523178888952561086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 275
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785432ae1040a4ff0800000000000000
+      internalID: -51224039491680889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68048bee2bb555200800000000000000
+      internalID: 168141385163620486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 211
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa5f04f3cf794910800000000000000
+      internalID: 1822128003838073517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_88
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 211
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0882c28e3713ef080800000000000000
+      internalID: -9151823018884061056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_89
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 211
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69cfd629f98f30f0800000000000000
+      internalID: -1135036877882013330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 243
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eab572fed9901930800000000000000
+      internalID: 4111955642618854114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 243
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c937ac1dd5681840800000000000000
+      internalID: 5195014170514766273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_92
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1a9783af91ffb80800000000000000
+      internalID: -8358933820896337429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_93
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1060a997f9bf7f0800000000000000
+      internalID: -577692782563032604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_94
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94e9264e58f7d600800000000000000
+      internalID: 493135768008123548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_95
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771085a8df8ae1160800000000000000
+      internalID: 6998216677881545079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_96
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22256a3ac919aec10800000000000000
+      internalID: 2083637879558787618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_97
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284b236f96eb2c830800000000000000
+      internalID: 4090040773917193346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_98
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 211
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdea410e1f62ba30800000000000000
+      internalID: 4229565174715706868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_99
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 211
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aecd62e509c01500800000000000000
+      internalID: 365012596927876768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_100
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 211
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe76072409fe6110800000000000000
+      internalID: 1256215142312869618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_101
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e6fe8d5f9831480800000000000000
+      internalID: -8929641947145998728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_102
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a427f5ac219a920800000000000000
+      internalID: 3001951287013165675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_103
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 211
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024eb80d0347a6c70800000000000000
+      internalID: 8965105761240474656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_104
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 227
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564088ccb64927f60800000000000000
+      internalID: 8030644276268893285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_105
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 227
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beb19833eebd7c00800000000000000
+      internalID: 900085383659896501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_106
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 195
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f56a302ac257bb0800000000000000
+      internalID: -4938992341984321670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_107
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 211
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adf9058137273540800000000000000
+      internalID: 4987498205975018917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_108
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 211
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d00a74f3cfd50090800000000000000
+      internalID: -8068797124651122473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_109
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81de4eef85b6c26e0800000000000000
+      internalID: -1860994516033147624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_110
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f604c85efe1710f0800000000000000
+      internalID: -1146413502382733584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_111
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 195
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c07a1182f04c5750800000000000000
+      internalID: 6294977789449367753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_112
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 147
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0bf795d9f4038b0800000000000000
+      internalID: -5174548434618699529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_113
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c4b702dfa59d4e0800000000000000
+      internalID: -1956432519897592717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_114
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 147
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03617100d6e7f3610800000000000000
+      internalID: 1603138998985233968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_115
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 147
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174e5060982a7a520800000000000000
+      internalID: 2713316009909281905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_116
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 163
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e884fdda7cd240c0800000000000000
+      internalID: -4592866249696573208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_117
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 147
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02b9e0454580430800000000000000
+      internalID: 3749339409784971515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_118
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 131
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d02879d10832cf0800000000000000
+      internalID: -278237887382549245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ward-Tileset_119
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 131
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d7be88afa12f680800000000000000
+      internalID: -8722879864921948821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
