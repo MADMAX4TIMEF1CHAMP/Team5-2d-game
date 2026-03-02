@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class game_manager : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class game_manager : MonoBehaviour
    //true = red false = blue
    public static game_manager instance;
    public float paranoia_level;
+   public string current_player_object;
+   [SerializeField] private TextMeshProUGUI paranoia_text;
+   [SerializeField] private TextMeshProUGUI current_item_text;
+
 
 
    #endregion
@@ -31,6 +36,9 @@ public class game_manager : MonoBehaviour
             }
         }
         
+        paranoia_text.text = paranoia_level.ToString();
+        current_item_text.text = current_player_object;
+
         
     }
 

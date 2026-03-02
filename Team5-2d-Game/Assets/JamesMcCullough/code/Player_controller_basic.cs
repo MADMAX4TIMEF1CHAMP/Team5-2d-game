@@ -108,7 +108,7 @@ public class Player_controller_basic : MonoBehaviour
             StartCoroutine(paranoia_increase());
         }
 
-        Debug.Log(game_manager.instance.paranoia_level);
+        //Debug.Log(game_manager.instance.paranoia_level);
     }
     
 
