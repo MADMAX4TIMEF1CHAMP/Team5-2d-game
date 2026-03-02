@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      morningstar_0: 2140399362887188434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

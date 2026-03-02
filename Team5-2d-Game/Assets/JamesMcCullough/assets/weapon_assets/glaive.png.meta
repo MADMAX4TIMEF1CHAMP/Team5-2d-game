@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      glaive_0: 968984221436332789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

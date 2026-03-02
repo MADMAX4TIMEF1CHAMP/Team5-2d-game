@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      halberd_0: 1417480958707914491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
