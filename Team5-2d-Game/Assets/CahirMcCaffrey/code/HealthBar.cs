@@ -7,13 +7,14 @@ public class HealthBar : MonoBehaviour
 {
     public Sprite Frame_0, Frame_1, Frame_2, Frame_3, Frame_4, Frame_5, Frame_6, Frame_7, Frame_8, Frame_9;
     Image HealthBarImage;
+    private HealthBarStatus healthBarStatus;
 
     private void Awake()
         {
         HealthBarImage = GetComponent<Image>();
     }
 
-    public void SetHealthBarImage(HealthBarStatus, HealthBarStatus healthBarStatus)
+    public void SetHealthBarImage(HealthBarStatus HealthBarStatus )
     {
         switch (healthBarStatus)
         {
