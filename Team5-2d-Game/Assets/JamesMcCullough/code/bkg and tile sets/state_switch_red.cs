@@ -37,7 +37,6 @@ public class state_switch_red : MonoBehaviour
             room_collider.isTrigger = true;
             sprite_renderer.sprite = alt_sprite;
         }
-        
     }
 
     void OnTriggerEnter2D(Collider2D other)
