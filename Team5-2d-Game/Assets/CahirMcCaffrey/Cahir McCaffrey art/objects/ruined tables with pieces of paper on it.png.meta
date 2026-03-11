@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruined tables with pieces of paper on it_0: 7090231231448296668
+      ruined tables with pieces of paper on it_1: 5092372037757961557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

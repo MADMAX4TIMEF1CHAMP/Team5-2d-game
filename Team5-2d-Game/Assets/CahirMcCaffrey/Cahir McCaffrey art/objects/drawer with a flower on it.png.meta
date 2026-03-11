@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      drawer with a flower on it_0: -7602777952711281442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

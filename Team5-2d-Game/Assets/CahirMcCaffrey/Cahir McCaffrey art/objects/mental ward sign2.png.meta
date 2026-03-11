@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mental ward sign2_0: -552777958478400061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

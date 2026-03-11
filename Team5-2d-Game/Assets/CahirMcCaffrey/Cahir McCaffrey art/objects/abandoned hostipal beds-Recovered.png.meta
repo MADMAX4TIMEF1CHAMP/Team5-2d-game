@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      abandoned hostipal beds-Recovered_0: 5650996458772664964
+      abandoned hostipal beds-Recovered_1: -6085510089110745504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
