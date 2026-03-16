@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ruined butten board_0: -343504076466471220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
