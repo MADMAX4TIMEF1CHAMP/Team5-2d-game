@@ -64,11 +64,11 @@ public class Player_controller_basic : MonoBehaviour
 
         if(game_manager.instance.paranoia_level > 50)
         {
-            acceleration = (base_acceleration - (game_manager.instance.paranoia_level / 50)) + 0.1f ;
+            acceleration = (base_acceleration - (game_manager.instance.paranoia_level / 75)) + 0.1f ;
         }
         else if (game_manager.instance.paranoia_level < -50)
         {
-            acceleration = (base_acceleration - ((game_manager.instance.paranoia_level / 50) * -1)) + 0.1f;
+            acceleration = (base_acceleration - ((game_manager.instance.paranoia_level / 75) * -1)) + 0.1f;
         }
         else
         {
