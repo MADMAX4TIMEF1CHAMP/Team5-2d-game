@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1f09802795256f04fa47ce6d6a7649e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Frame_0: {fileID: -3069504285413896200, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  - Frame_1: {fileID: 4549824801471598203, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  - Frame_2: {fileID: 7776307440109187070, guid: 512f2a7e344490c4681f7d27934e1130, type: 3}
+  - Frame_3: {fileID: -3223672282138565521, guid: 512f2a7e344490c4681f7d27934e1130, type: 3}
+  - Frame_4: {fileID: -5443497523280266983, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  - Frame_5: {fileID: 8672477526439514857, guid: 512f2a7e344490c4681f7d27934e1130, type: 3}
+  - Frame_6: {fileID: -17269233458672440, guid: 512f2a7e344490c4681f7d27934e1130, type: 3}
+  - Frame_7: {fileID: -4378293634857008976, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  - Frame_8: {fileID: -1214985201782613173, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  - Frame_9: {fileID: 3210399005240554915, guid: 1fc558fa72643c144b4fd179fe65d56e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
