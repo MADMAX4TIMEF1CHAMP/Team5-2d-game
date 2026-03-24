@@ -19,6 +19,13 @@ public class PlayersHealthSystem : MonoBehaviour
     {
         health -= amount;
         OnPlayerDamaged?.Invoke();
+       
         
+        if (health <= 0)
+        {
+            health = 0;
+            Debug.Log("you're dead");
+            OnPlayerDeath?.Invoke();
+        }
     }
 }
