@@ -213,11 +213,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2934716286549508355, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -49.4
+      value: -49.12
       objectReference: {fileID: 0}
     - target: {fileID: 2934716286549508355, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: 15.66
       objectReference: {fileID: 0}
     - target: {fileID: 2934716286549508355, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -258,6 +258,10 @@ PrefabInstance:
     - target: {fileID: 6668115548700573923, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668115548700573923, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7104598296865236942, guid: 71bb2c0e01367394e87eedc0479daac3, type: 3}
       propertyPath: ShapeModule.type
@@ -75419,6 +75423,7 @@ GameObject:
   - component: {fileID: 1362309289}
   - component: {fileID: 1362309288}
   - component: {fileID: 1362309291}
+  - component: {fileID: 1362309292}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -75559,6 +75564,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1362309292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362309287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5ea546b01689f48b972f57bce539c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 1
+  health: 3
+  agrro_range: 1000
 --- !u!1 &1368174257
 GameObject:
   m_ObjectHideFlags: 0
@@ -109209,7 +109229,7 @@ GameObject:
   - component: {fileID: 1872096024}
   - component: {fileID: 1872096023}
   - component: {fileID: 1872096022}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap_bluewall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
