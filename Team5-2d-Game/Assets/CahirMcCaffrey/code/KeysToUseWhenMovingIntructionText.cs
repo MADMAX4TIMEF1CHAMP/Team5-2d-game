@@ -9,7 +9,7 @@ public class KeysToUseWhenMovingIntructionText : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InstructionOnHowToMoveText.text = " To switch states press the space bar";
+        InstructionOnHowToMoveText.text = "use wasd to move";
     }
 
     void Update()
