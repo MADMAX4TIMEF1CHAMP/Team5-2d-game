@@ -3,7 +3,7 @@ using TMPro;
 using System.Diagnostics;
 
 
-public class text1 : MonoBehaviour
+public class StateSwitchingInstructionsText : MonoBehaviour
 {
     public TextMeshProUGUI InstructionToSwitchStatesText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

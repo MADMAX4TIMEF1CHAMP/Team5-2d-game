@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3ac8306de4feac4b9b530df1d226186
+guid: 9720043c21ac5c14f9c964708e2bda0d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: abandoned hostipal beds-Recovered
+  - name: start game button
     originalName: 
-    pivot: {x: -0.060606062, y: -2.12}
+    pivot: {x: 0.50617284, y: -0.9130435}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 33
-      height: 25
-    spriteID: f65266941fa689647b5c115d83714e4f
+      width: 81
+      height: 46
+    spriteID: 76752b38954e7aa419b35ab82c316991
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,60 +148,30 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
-    originalName: 
-    pivot: {x: 2.3076923, y: -2.5833335}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 45
-      y: 4
-      width: 13
-      height: 24
-    spriteID: 49f02f52ed13f0b42b55662cfeaa075a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 45, y: 4}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1529489688
+      value0: 3101265340
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: abandoned hostipal beds-Recovered
+    name: start game button
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: start game button
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 66
-        y: 53
-        width: 33
-        height: 25
-      spriteId: f65266941fa689647b5c115d83714e4f
-    - name: Frame_1
-      frameIndex: 1
-      additiveSortOrder: 0
-      cellRect:
-        x: 34
-        y: 62
-        width: 13
-        height: 24
-      spriteId: 49f02f52ed13f0b42b55662cfeaa075a
+        x: 23
+        y: 42
+        width: 81
+        height: 46
+      spriteId: 76752b38954e7aa419b35ab82c316991
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -212,4 +182,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}
-  previousTextureSize: {x: 64, y: 64}
+  previousTextureSize: {x: 128, y: 64}

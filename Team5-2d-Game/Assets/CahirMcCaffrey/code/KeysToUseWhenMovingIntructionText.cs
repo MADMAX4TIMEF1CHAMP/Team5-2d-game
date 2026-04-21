@@ -3,13 +3,13 @@ using TMPro;
 using System.Diagnostics;
 
 
-public class text2 : MonoBehaviour
+public class KeysToUseWhenMovingIntructionText : MonoBehaviour
 {
     public TextMeshProUGUI InstructionOnHowToMoveText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InstructionOnHowToMoveText.text = " To switch states press the space bar";
+        InstructionOnHowToMoveText.text = "use wasd to move";
     }
 
     void Update()
