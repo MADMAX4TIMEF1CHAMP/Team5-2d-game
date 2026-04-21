@@ -4,13 +4,19 @@ public class enemy_script : MonoBehaviour
 {
     private Vector3 player_position;
     private float distance_from_player;
-    [SerializeField] bool debug = false;
     Vector3 forward;
-    Vector3 rotation_direction;
+    Vector2 rotation_direction;
+    Vector2 patrol_direction;
     LayerMask layer_mask;
     private Player_controller_basic player_controller;
     [SerializeField] private int health = 3;
     [SerializeField] private float agrro_range = 5f;
+    [SerializeField] GameObject patrol_point_a;
+    [SerializeField] GameObject patrol_point_b;
+    GameObject patrol_target;
+    [SerializeField] float fov;
+
+    float viewing_angle;
 
     enum enemy_state{ chase, attack, idle}
     enemy_state state;
@@ -18,14 +24,13 @@ public class enemy_script : MonoBehaviour
     bool state_complete = true;
     bool is_attacking = false;
     bool can_attack = true;
-    int acceleration = 2;
-    float deceleration = 0.7f;
+    [SerializeField] int acceleration = 2;
+    [SerializeField] float deceleration = 0.7f;
     Rigidbody2D rb;
     GameObject player;
     float distance;
-    
+    public RaycastHit2D hit_info;
 
-    
 
     void Start()
     {
@@ -34,6 +39,7 @@ public class enemy_script : MonoBehaviour
         layer_mask = LayerMask.GetMask("player");
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        patrol_target = patrol_point_a;
         
     }
 
@@ -41,9 +47,11 @@ public class enemy_script : MonoBehaviour
     void Update()
     {
         rotation_direction = (player_controller.transform.position - this.transform.position).normalized;
-        rotation_direction.z = 0;
+        patrol_direction = (patrol_target.transform.position - this.transform.position).normalized;
         distance_from_player = Vector3.Distance(transform.position, player_controller.transform.position);
-        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
+
+        viewing_angle = Vector2.Angle(patrol_direction, rotation_direction);
+        //Debug.Log(viewing_angle);
 
         //on death
        if (health <= 0)
@@ -52,40 +60,145 @@ public class enemy_script : MonoBehaviour
         this.gameObject.SetActive(false);
        }
 
-       if (!is_attacking)
+       if(Input.GetKeyDown(KeyCode.Q))
        {
-
+            if(patrol_target == patrol_point_a)
+            {
+                patrol_target = patrol_point_b;
+            }
+            else
+            {
+                patrol_target = patrol_point_a;
+            }
        }
 
+        // 
 
-        // on agrro
-        if(hit_info.collider == null)
+        if(!is_attacking)
         {
-            Debug.Log("it works?");
+            if(state_complete)
+            {
+                select_state();
+            }
+            update_state();
         }
-        else if(hit_info.collider.gameObject.CompareTag("Player"))
-        {
-
-            
-            rb.linearVelocity = rotation_direction * acceleration;
-
-        }
-
         
-
-
-        Debug.Log(hit_info.collider);
-
         rb.linearVelocity *= deceleration;
+
+        Debug.Log(state);
+
     
     }
-
-
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(this.transform.position, new Vector2(rotation_direction.x, rotation_direction.y)* agrro_range);
+        Gizmos.DrawRay(this.transform.position, rb.linearVelocity * agrro_range);
+        Gizmos.DrawRay(this.transform.position, patrol_direction * agrro_range);
+    }
+
+    void select_state()
+    {
+        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
+        state_complete = false;
+
+        if(hit_info.collider == null)
+        {
+            state = enemy_state.idle;       
+        }
+        else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
+        {
+            state = enemy_state.chase;
+        }
+        else
+        {
+            state = enemy_state.idle;
+        }
+        
+
+        // add in attack state to the if statement (if player distance < attack range)
+        
+
     }
     
+    void update_state()
+    {
+        switch (state)
+        {
+            case enemy_state.chase:
+                chase_player();
+                break;
+            case enemy_state.idle:
+                idle_patrol_state();
+                break;
+            case enemy_state.attack:
+                break;
+
+        }
+    }
+
+    void chase_player()
+    {
+        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
+
+        if(hit_info.collider == null)
+        {
+            state_complete = true;       
+        }
+        else if(hit_info.collider.gameObject.CompareTag("Player"))
+        {
+            rb.linearVelocity += rotation_direction * acceleration;
+            //may have to change if using nav mesh
+        }
+        else
+        {
+            state_complete = true;
+        }
+
+    }
+
+    void idle_patrol_state()
+    {
+        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
+
+        if(hit_info.collider == null)
+        {
+            idle_patrol();      
+        }
+        else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
+        {
+            state_complete = true;
+        }
+        else
+        {
+            idle_patrol();
+        }
+
+    }
+
+    void idle_patrol()
+    {
+
+        rb.linearVelocity += patrol_direction * (acceleration / 2);
+    }
+
+    void attack()
+    {
+        //temp code
+        state_complete = true;
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject == patrol_point_a)
+        {
+            patrol_target = patrol_point_b;
+        }
+        else if(other.gameObject == patrol_point_b)
+        {
+            patrol_target = patrol_point_a;
+        }
+
+
+    }
 }

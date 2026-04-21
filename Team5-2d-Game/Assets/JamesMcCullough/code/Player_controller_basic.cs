@@ -17,6 +17,8 @@ public class Player_controller_basic : MonoBehaviour
     [SerializeField] float paranoia_delay = 5f;
     private bool can_increase = true;
 
+    Vector2 facing_direction;
+
 
     #endregion
 
@@ -127,4 +129,5 @@ public class Player_controller_basic : MonoBehaviour
         can_increase = true;
 
     }
+
 }
