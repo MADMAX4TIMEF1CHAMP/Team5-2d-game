@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class enemy_script : MonoBehaviour
 {
@@ -8,13 +9,12 @@ public class enemy_script : MonoBehaviour
     private Player_controller_basic player_controller;
     [SerializeField] private int health = 3;
     [SerializeField] private float agrro_range = 5f;
+    float agrro_distance;
     [SerializeField] GameObject patrol_point_a;
     [SerializeField] GameObject patrol_point_b;
     GameObject patrol_target;
     [SerializeField] float fov;
-
     float viewing_angle;
-
     enum enemy_state{ chase, attack, idle}
     enemy_state state;
     Animator animator;
@@ -23,20 +23,23 @@ public class enemy_script : MonoBehaviour
     bool can_attack = true;
     [SerializeField] int acceleration = 2;
     [SerializeField] float deceleration = 0.7f;
-    public Rigidbody2D rb;
-    GameObject player;
+    [SerializeField] GameObject player;
     float distance_from_patrol;
+    float distance_from_player;
     public RaycastHit2D hit_info;
+    NavMeshAgent agent;
+    Transform target;
 
 
-    void Start()
+    void Awake()
     {
-        GameObject player = GameObject.Find("player");
         player_controller = player.GetComponent<Player_controller_basic>();
         layer_mask = LayerMask.GetMask("player");
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         patrol_target = patrol_point_a;
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         
     }
 
@@ -45,7 +48,8 @@ public class enemy_script : MonoBehaviour
     {
         rotation_direction = (player_controller.transform.position - this.transform.position).normalized;
         patrol_direction = (patrol_target.transform.position - this.transform.position).normalized;
-        distance_from_patrol = Vector3.Distance(transform.position, patrol_target.transform.position);
+        distance_from_patrol = Vector2.Distance(this.transform.position, patrol_target.transform.position);
+        distance_from_player = Vector2.Distance(this.transform.position, player.transform.position);
 
         viewing_angle = Vector2.Angle(patrol_direction, rotation_direction);
        
@@ -57,16 +61,13 @@ public class enemy_script : MonoBehaviour
         this.gameObject.SetActive(false);
        }
 
-       if(Input.GetKeyDown(KeyCode.Q) || distance_from_patrol < 0.1)
+       
+
+       
+       
+       if(target != null)
        {
-            if(patrol_target == patrol_point_a)
-            {
-                patrol_target = patrol_point_b;
-            }
-            else
-            {
-                patrol_target = patrol_point_a;
-            }
+         agent.SetDestination(target.position);
        }
 
         // 
@@ -80,17 +81,22 @@ public class enemy_script : MonoBehaviour
             update_state();
         }
         
-        rb.linearVelocity *= deceleration;
 
         //Debug.Log(viewing_angle);
-        //Debug.Log(state);
+        Debug.Log(state);
     }
 
     void OnDrawGizmosSelected()
     {
+        //player target
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(this.transform.position, new Vector2(rb.linearVelocity.x, rb.linearVelocity.y) * agrro_range);
+        Gizmos.DrawRay(this.transform.position, rotation_direction * agrro_range);
+        //attack range
+        Gizmos.DrawRay(this.transform.position, rotation_direction * (agrro_range / 4));
+        //patrol target
+        Gizmos.color = Color.green;
         Gizmos.DrawRay(this.transform.position, patrol_direction * agrro_range);
+        
     }
 
     void select_state()
@@ -100,15 +106,21 @@ public class enemy_script : MonoBehaviour
 
         if(hit_info.collider == null)
         {
-            state = enemy_state.idle;       
+            state = enemy_state.idle;
+            agrro_range = 5f;       
         }
-        else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
+        else if((hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov))
+        {
+            state = enemy_state.chase;
+        }
+        else if(distance_from_player < agrro_distance)
         {
             state = enemy_state.chase;
         }
         else
         {
             state = enemy_state.idle;
+            agrro_range = 5f;
         }
         
 
@@ -137,13 +149,15 @@ public class enemy_script : MonoBehaviour
     {
         RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
 
+        
         if(hit_info.collider == null)
         {
             state_complete = true;       
         }
         else if(hit_info.collider.gameObject.CompareTag("Player"))
         {
-            rb.linearVelocity += rotation_direction * acceleration;
+            target = player.transform;
+            agent.speed = acceleration;
             //may have to change if using nav mesh
         }
         else
@@ -157,7 +171,7 @@ public class enemy_script : MonoBehaviour
 
     void idle_patrol_state()
     {
-        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rb.linearVelocity.x, rb.linearVelocity.y), agrro_range);
+        RaycastHit2D hit_info = Physics2D.Raycast(this.transform.position, new Vector2(patrol_direction.x, patrol_direction.y) , agrro_range);
 
         if(hit_info.collider == null)
         {
@@ -178,8 +192,22 @@ public class enemy_script : MonoBehaviour
 
     void idle_patrol()
     {
+        if(Input.GetKeyDown(KeyCode.Q) || distance_from_patrol < 0.1)
+       {
+            agrro_distance = 2f;
+            if(patrol_target == patrol_point_a)
+            {
+                patrol_target = patrol_point_b;
+            }
+            else
+            {
+                patrol_target = patrol_point_a;
+            }
+       }
 
-        rb.linearVelocity += patrol_direction * (acceleration / 2);
+        target = patrol_target.transform;
+        agent.speed = acceleration / 2;
+        
     }
 
     void attack()
