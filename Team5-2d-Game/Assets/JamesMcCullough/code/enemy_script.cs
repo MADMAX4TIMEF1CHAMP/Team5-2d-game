@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class enemy_script : MonoBehaviour
 {
-    private Vector3 player_position;
-    private float distance_from_player;
-    Vector3 forward;
     Vector2 rotation_direction;
     Vector2 patrol_direction;
     LayerMask layer_mask;
@@ -26,9 +23,9 @@ public class enemy_script : MonoBehaviour
     bool can_attack = true;
     [SerializeField] int acceleration = 2;
     [SerializeField] float deceleration = 0.7f;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     GameObject player;
-    float distance;
+    float distance_from_patrol;
     public RaycastHit2D hit_info;
 
 
@@ -48,10 +45,10 @@ public class enemy_script : MonoBehaviour
     {
         rotation_direction = (player_controller.transform.position - this.transform.position).normalized;
         patrol_direction = (patrol_target.transform.position - this.transform.position).normalized;
-        distance_from_player = Vector3.Distance(transform.position, player_controller.transform.position);
+        distance_from_patrol = Vector3.Distance(transform.position, patrol_target.transform.position);
 
         viewing_angle = Vector2.Angle(patrol_direction, rotation_direction);
-        //Debug.Log(viewing_angle);
+       
 
         //on death
        if (health <= 0)
@@ -60,7 +57,7 @@ public class enemy_script : MonoBehaviour
         this.gameObject.SetActive(false);
        }
 
-       if(Input.GetKeyDown(KeyCode.Q))
+       if(Input.GetKeyDown(KeyCode.Q) || distance_from_patrol < 0.1)
        {
             if(patrol_target == patrol_point_a)
             {
@@ -85,15 +82,14 @@ public class enemy_script : MonoBehaviour
         
         rb.linearVelocity *= deceleration;
 
-        Debug.Log(state);
-
-    
+        //Debug.Log(viewing_angle);
+        //Debug.Log(state);
     }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(this.transform.position, rb.linearVelocity * agrro_range);
+        Gizmos.DrawRay(this.transform.position, new Vector2(rb.linearVelocity.x, rb.linearVelocity.y) * agrro_range);
         Gizmos.DrawRay(this.transform.position, patrol_direction * agrro_range);
     }
 
@@ -155,11 +151,13 @@ public class enemy_script : MonoBehaviour
             state_complete = true;
         }
 
+        
+
     }
 
     void idle_patrol_state()
     {
-        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rotation_direction.x, rotation_direction.y), agrro_range);
+        RaycastHit2D hit_info = Physics2D.Raycast(transform.position, new Vector2(rb.linearVelocity.x, rb.linearVelocity.y), agrro_range);
 
         if(hit_info.collider == null)
         {
@@ -173,6 +171,8 @@ public class enemy_script : MonoBehaviour
         {
             idle_patrol();
         }
+        
+
 
     }
 
