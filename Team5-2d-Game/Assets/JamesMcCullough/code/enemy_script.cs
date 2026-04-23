@@ -8,8 +8,8 @@ public class enemy_script : MonoBehaviour
     LayerMask layer_mask;
     private Player_controller_basic player_controller;
     [SerializeField] private int health = 3;
-    [SerializeField] private float agrro_range = 5f;
-    float agrro_distance;
+    [SerializeField] private float agrro_range = 7f;
+    float agrro_distance = 5f;
     [SerializeField] GameObject patrol_point_a;
     [SerializeField] GameObject patrol_point_b;
     GameObject patrol_target;
@@ -46,7 +46,7 @@ public class enemy_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotation_direction = (player_controller.transform.position - this.transform.position).normalized;
+        rotation_direction = (player.transform.position - this.transform.position).normalized;
         patrol_direction = (patrol_target.transform.position - this.transform.position).normalized;
         distance_from_patrol = Vector2.Distance(this.transform.position, patrol_target.transform.position);
         distance_from_player = Vector2.Distance(this.transform.position, player.transform.position);
@@ -80,10 +80,9 @@ public class enemy_script : MonoBehaviour
             }
             update_state();
         }
-        
+        Debug.Log(agrro_distance);
 
-        //Debug.Log(viewing_angle);
-        Debug.Log(state);
+        
     }
 
     void OnDrawGizmosSelected()
@@ -107,9 +106,9 @@ public class enemy_script : MonoBehaviour
         if(hit_info.collider == null)
         {
             state = enemy_state.idle;
-            agrro_range = 5f;       
+            agrro_range = 7f;       
         }
-        else if((hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov))
+        else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
         {
             state = enemy_state.chase;
         }
@@ -120,7 +119,7 @@ public class enemy_script : MonoBehaviour
         else
         {
             state = enemy_state.idle;
-            agrro_range = 5f;
+            agrro_range = 7f;
         }
         
 
@@ -164,20 +163,21 @@ public class enemy_script : MonoBehaviour
         {
             state_complete = true;
         }
-
-        
-
     }
 
     void idle_patrol_state()
     {
-        RaycastHit2D hit_info = Physics2D.Raycast(this.transform.position, new Vector2(patrol_direction.x, patrol_direction.y) , agrro_range);
+        RaycastHit2D hit_info = Physics2D.Raycast(this.transform.position, new Vector2(rotation_direction.x, rotation_direction.y) , agrro_range);
 
         if(hit_info.collider == null)
         {
             idle_patrol();      
         }
         else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
+        {
+            state_complete = true;
+        }
+        else if(distance_from_player < agrro_distance)
         {
             state_complete = true;
         }
