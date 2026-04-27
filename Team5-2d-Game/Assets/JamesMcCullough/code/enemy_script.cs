@@ -82,8 +82,7 @@ public class enemy_script : MonoBehaviour
         }
         
 
-        //Debug.Log(viewing_angle);
-        Debug.Log(state);
+
     }
 
     void OnDrawGizmosSelected()
@@ -171,13 +170,17 @@ public class enemy_script : MonoBehaviour
 
     void idle_patrol_state()
     {
-        RaycastHit2D hit_info = Physics2D.Raycast(this.transform.position, new Vector2(patrol_direction.x, patrol_direction.y) , agrro_range);
+        RaycastHit2D hit_info = Physics2D.Raycast(this.transform.position, new Vector2(rotation_direction.x, rotation_direction.y) , agrro_range);
 
         if(hit_info.collider == null)
         {
             idle_patrol();      
         }
         else if(hit_info.collider.gameObject.CompareTag("Player") && viewing_angle < fov)
+        {
+            state_complete = true;
+        }
+        else if(distance_from_player < agrro_distance)
         {
             state_complete = true;
         }
