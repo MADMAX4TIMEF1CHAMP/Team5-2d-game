@@ -27,7 +27,7 @@ public class StartMenuController : MonoBehaviour
 
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Cahirs,prototype_scenev3");
+        SceneManager.LoadScene("prototype_scene_chris");
     }
 
     public void OnExitClick()
