@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9cbcb735d0a136e4cb2d3516917b9b09
+guid: 85cc79239f5a9114cbe098de04167ea7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -765984694651718833
-    second: cafeteria table_0
+      213: -6886078931656138297
+    second: abandoned hostipal beds-Recovered1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cafeteria table_0
+      name: abandoned hostipal beds-Recovered1_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 66
-        width: 45
-        height: 34
+        x: 65
+        y: 52
+        width: 35
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f43f5e38afcae55f0800000000000000
-      internalID: -765984694651718833
+      spriteID: 7c1a55712bbbf60a0800000000000000
+      internalID: -6886078931656138297
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cafeteria table_0: -765984694651718833
+      abandoned hostipal beds-Recovered1_0: -6886078931656138297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
