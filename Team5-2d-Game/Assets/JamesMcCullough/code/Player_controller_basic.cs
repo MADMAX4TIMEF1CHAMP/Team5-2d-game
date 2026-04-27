@@ -18,6 +18,9 @@ public class Player_controller_basic : MonoBehaviour
     private bool can_increase = true;
 
     Vector2 facing_direction;
+    [SerializeField] int knock_back_mult;
+    [SerializeField] int player_health = 5;
+
 
 
     #endregion
@@ -77,6 +80,11 @@ public class Player_controller_basic : MonoBehaviour
             acceleration = base_acceleration;
         }
 
+        if(player_health <= 0)
+        {
+            Debug.Log("you are ded lol");
+        }
+
         
 
 
@@ -127,6 +135,18 @@ public class Player_controller_basic : MonoBehaviour
             game_manager.instance.paranoia_level -= 1;
         }
         can_increase = true;
+
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if(other.tag == "enemy")
+        {
+            rb.AddForce((other.transform.position - this.transform.position).normalized * (knock_back_mult * -1), ForceMode2D.Impulse);
+            player_health -= 1;
+        }
+
 
     }
 
