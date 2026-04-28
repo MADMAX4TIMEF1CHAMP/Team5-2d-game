@@ -102,6 +102,7 @@ public class enemy_script : MonoBehaviour
         
         if(currently_attack)
         {
+            animator.SetBool("attacking",true);
             rb.linearVelocity = attack_direction.normalized * attack_speed;
         }
 
@@ -295,6 +296,7 @@ public class enemy_script : MonoBehaviour
 
         yield return new WaitForSeconds(attack_time);
         currently_attack = false;
+        animator.SetBool("attacking",false);
         rb.linearVelocity = new Vector2(0,0);
 
         yield return new WaitForSeconds(attack_cooldown);
