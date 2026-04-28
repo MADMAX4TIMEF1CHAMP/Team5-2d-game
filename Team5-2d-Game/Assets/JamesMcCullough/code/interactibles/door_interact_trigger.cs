@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using TMPro;
 
 public class door_interact_trigger : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class door_interact_trigger : MonoBehaviour
     [SerializeField] private BoxCollider2D parent; 
     [SerializeField] private string needed_item;
     [SerializeField] private GameObject interact_key_bind;
+    [SerializeField] private TextMeshProUGUI screen_text;
     public bool is_open = false;
 
     #endregion
@@ -48,7 +51,8 @@ public class door_interact_trigger : MonoBehaviour
             }
             else
             {
-                Debug.Log("nuh uh");
+                screen_text.text = ("you need a " + needed_item);
+                StartCoroutine(remove_text());
             }
         }
     }
@@ -70,5 +74,11 @@ public class door_interact_trigger : MonoBehaviour
             interact_key_bind.SetActive(false);
             can_interact = false;
         }
+    }
+
+    private IEnumerator remove_text()
+    {
+        yield return new WaitForSeconds(1.5f);
+         screen_text.text = null;
     }
 }
