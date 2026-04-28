@@ -4,7 +4,7 @@ public class state_switch_red : MonoBehaviour
 {
     #region variables
     private bool current_state;
-    [SerializeField] private bool is_red;
+    [SerializeField] public bool is_red;
     [SerializeField] private Sprite shown_sprite;
     [SerializeField] private Sprite alt_sprite;
     private bool player_inside = false;

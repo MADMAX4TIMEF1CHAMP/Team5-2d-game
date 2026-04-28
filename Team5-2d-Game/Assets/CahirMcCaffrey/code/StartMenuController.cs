@@ -6,6 +6,7 @@ public class StartMenuController : MonoBehaviour
 {
     public AudioClip soundsforstorywalkmanbutton272973;
     private AudioSource CanvasAudio;
+    [SerializeField] Scene game_scene;
 
     void Start()
     {
@@ -27,7 +28,7 @@ public class StartMenuController : MonoBehaviour
 
     public void OnStartClick()
     {
-        SceneManager.LoadScene("prototype_scene_chris");
+        SceneManager.LoadScene("main_game_scene");
     }
 
     public void OnExitClick()

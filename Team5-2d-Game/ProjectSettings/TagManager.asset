@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - state_object
+  - enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
   - 
