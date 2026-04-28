@@ -11,6 +11,7 @@ public class door_interact_trigger : MonoBehaviour
     [SerializeField] private string needed_item;
     [SerializeField] private GameObject interact_key_bind;
     [SerializeField] private TextMeshProUGUI screen_text;
+      [SerializeField] private TextMeshProUGUI current_objective_text;
     public bool is_open = false;
 
     #endregion
@@ -47,10 +48,12 @@ public class door_interact_trigger : MonoBehaviour
             {
                 is_open = true;
                 game_manager.instance.current_player_object = null;
+                current_objective_text.text = null;
                 
             }
             else
             {
+                current_objective_text.text = ("objective - find a " + needed_item);
                 screen_text.text = ("you need a " + needed_item);
                 StartCoroutine(remove_text());
             }

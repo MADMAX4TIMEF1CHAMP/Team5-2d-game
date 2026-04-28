@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class door_switch : MonoBehaviour
 {
    #region variables
@@ -10,6 +11,7 @@ public class door_switch : MonoBehaviour
     [SerializeField] private Sprite shown_sprite;
     [SerializeField] private Sprite alt_sprite;
     [SerializeField] door_interact_trigger door_trigger;
+  
 
 
 

@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is_red: 1
-  stored_item: epic test item
+  stored_item: door_key
   interact_key_bind: {fileID: 1048649983387353682}
 --- !u!199 &1586929427597375119
 ParticleSystemRenderer:
