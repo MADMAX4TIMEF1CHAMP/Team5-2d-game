@@ -12,6 +12,11 @@ public class game_manager : MonoBehaviour
    public string current_player_object;
    [SerializeField] private TextMeshProUGUI paranoia_text;
    [SerializeField] private TextMeshProUGUI current_item_text;
+   [SerializeField] private TextMeshProUGUI current_health_text;
+   [SerializeField] private TextMeshProUGUI current_objective_text;
+   private Player_controller_basic player_controller;
+   [SerializeField] GameObject player;
+
 
 
 
@@ -19,6 +24,9 @@ public class game_manager : MonoBehaviour
 
    private void Start()
    {
+    player_controller = player.GetComponent<Player_controller_basic>();
+    current_objective_text.text = ("objective - escape");
+
         if(instance == null)
         {
             instance = this;
@@ -35,9 +43,18 @@ public class game_manager : MonoBehaviour
              state = !state;
             }
         }
+        if (paranoia_level < 0)
+        {
+            paranoia_text.text = ("paranoia level " + paranoia_level * -1);
+        }
+        else
+        {
+            paranoia_text.text = ("paranoia level " + paranoia_level);
+        }
         
-        paranoia_text.text = paranoia_level.ToString();
+        
         current_item_text.text = current_player_object;
+        current_health_text.text = ("player health = " + player_controller.player_health);
 
         
     }

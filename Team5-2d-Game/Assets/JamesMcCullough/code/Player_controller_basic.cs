@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System;
+
 
 public class Player_controller_basic : MonoBehaviour
 {
@@ -17,6 +19,14 @@ public class Player_controller_basic : MonoBehaviour
     [SerializeField] float paranoia_delay = 5f;
     private bool can_increase = true;
 
+    Vector2 facing_direction;
+    [SerializeField] int knock_back_mult;
+    [SerializeField] public int player_health = 5;
+    public static event Action on_player_damage;
+    [SerializeField] float invincible_time = 0.1f;
+    bool can_be_damaged;
+
+
 
     #endregion
 
@@ -24,6 +34,7 @@ public class Player_controller_basic : MonoBehaviour
 
     void Start()
     {
+        can_be_damaged = true;
         rb = GetComponent<Rigidbody2D>();
         test_anim = GetComponent<Animator>();
         particle_system = GetComponent<ParticleSystem>();
@@ -64,15 +75,20 @@ public class Player_controller_basic : MonoBehaviour
 
         if(game_manager.instance.paranoia_level > 50)
         {
-            acceleration = (base_acceleration - (game_manager.instance.paranoia_level / 50)) + 0.1f ;
+            acceleration = (base_acceleration - (game_manager.instance.paranoia_level / 75)) + 0.1f ;
         }
         else if (game_manager.instance.paranoia_level < -50)
         {
-            acceleration = (base_acceleration - ((game_manager.instance.paranoia_level / 50) * -1)) + 0.1f;
+            acceleration = (base_acceleration - ((game_manager.instance.paranoia_level / 75) * -1)) + 0.1f;
         }
         else
         {
             acceleration = base_acceleration;
+        }
+
+        if(player_health <= 0)
+        {
+            Debug.Log("you are ded lol");
         }
 
         
@@ -127,4 +143,26 @@ public class Player_controller_basic : MonoBehaviour
         can_increase = true;
 
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if(other.tag == "enemy" && can_be_damaged)
+        {
+            can_be_damaged = false;
+            rb.AddForce((other.transform.position - this.transform.position).normalized * (knock_back_mult * -1), ForceMode2D.Impulse);
+            player_health -= 1;
+            on_player_damage?.Invoke();
+            StartCoroutine(damage_frames());
+        }
+
+
+    }
+
+    private IEnumerator damage_frames()
+    {
+       yield return new WaitForSeconds(invincible_time); 
+       can_be_damaged = true;
+    }
+
 }

@@ -9,7 +9,7 @@ public class DamageOnCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("player"))
         {
-            collision.gameObject.GetComponent<PlayersHealthSystem>().TakeDamage(1);
+            //collision.gameObject.GetComponent<PlayersHealthSystem>().TakeDamage(1);
         }
     }
 
